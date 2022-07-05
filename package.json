@@ -1,0 +1,32 @@
+{
+  "name": "friendly-server",
+  "version": "0.0.0-alpha1",
+  "description": "Communique avec tes amis et fait toi des nouveau potes !",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node dist/main.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Friendly-Inc/friendly-server.git"
+  },
+  "author": "Friendly-Inc (Quentin MASSOT & Margot)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Friendly-Inc/friendly-server/issues"
+  },
+  "homepage": "https://github.com/Friendly-Inc/friendly-server#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "tsc": "^2.0.4",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "socket.io": "^4.5.1"
+  }
+}
