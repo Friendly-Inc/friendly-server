@@ -2,7 +2,7 @@
   "name": "friendly-server",
   "version": "0.0.0-alpha1",
   "description": "Communique avec tes amis et fait toi des nouveau potes !",
-  "main": "src/main.ts",
+  "main": "src/ main.ts",
   "scripts": {
     "dev": "nodemon",
     "start": "node dist/main.js",
